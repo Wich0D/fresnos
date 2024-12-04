@@ -1,0 +1,131 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/*reset css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Header*/
+header{
+    background-color: #b28848;
+    width: 100%;
+    position: fixed;
+    padding: 6px 0;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content:space-between;
+    box-shadow: #694b22 0px 1px 10px;
+    color: #694b22;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+.header-logo *{
+    padding: 0 1rem;
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 1.2rem;
+}
+.header-nav li{
+    margin: 0 1rem;
+}
+.header-nav li:hover{
+    cursor: pointer;
+    color: wheat;
+    transition: all 0.6s;
+}
+.login{
+    background-color: wheat;
+    padding: 13px;
+    border-radius: 2rem;
+}
+.login:hover{
+    background-color: white;
+    color: #694b22;
+}
+body{
+    background-color: white;
+    font-family: "Lato",sans-serif;
+    color: #694b22;
+    font-size: 25px;
+}
+.articles{
+    padding-top: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.index-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.index-description p{
+    padding: 1rem;
+}
+.index-book{
+    background-color: #b28848;
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.index-options{
+    background-color: white;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
