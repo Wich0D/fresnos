@@ -1,0 +1,37 @@
+/*Index book*/
+.index-options{
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.index-options *{
+    margin-bottom: 1rem;
+}
+.index-options img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow:  #727171 1px 1px 3px ;
+}
+.index-options h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.index-options p{
+    font-size: 16px;
+    text-align: center;
+    width: 80%;
+}
+.index-options button{
+    background-color: #b28848;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    font-size: 25px;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.index-options button:hover{
+    cursor: pointer;
+    color: wheat;
+    transition: all 0.3s;
+}
