@@ -11,9 +11,9 @@ function Header() {
       </div>
       <nav>
         <ul className="header-nav">
-          <li>Conócenos</li>
-          <li>Reserva</li>
-          <li>Contáctanos</li>
+          <li><a href="#descriptionSection">Conócenos</a></li>
+          <li><a href="#bookSection">Reserva</a></li>
+          <li><a href="#footerSection">Contáctanos</a></li>
           <li className="login">Ingresa</li>
         </ul>
       </nav>
