@@ -1,11 +1,12 @@
-# Nombre del Proyecto
+# Cadena de Hoteles Fresnos
 
-Descripción breve del proyecto.
+La cadena de hoteles ficticia "Fresnos" esta desarrollando un sistema para poder administrar su sitio web.
 
 ## Tecnologías utilizadas
 - Node.js
 - React
 - Express
+- BoxIcons
 
 ## Configuración
 1. Clona el repositorio.
